@@ -82,3 +82,9 @@ KNN Classifier (k=5)
      ↓
 Category Prediction + Confidence Score (0–10)
 ```
+
+## Data-Set Link
+
+```
+https://www.kaggle.com/datasets/saugataroyarghya/resume-dataset
+```
