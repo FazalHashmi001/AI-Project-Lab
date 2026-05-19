@@ -22,7 +22,7 @@ class ResumeModel:
 
     def __init__(self, n_neighbors=5):
         self.preprocessor = ResumePreprocessor()
-        self.vectorizer = TfidfVectorizer(max_features=1500, min_df=1)
+        self.vectorizer = TfidfVectorizer(max_features=3000, ngram_range=(1,5),min_df=1)
         self.classifier = KNeighborsClassifier(n_neighbors=n_neighbors)
         self.label_encoder = LabelEncoder()
         self.is_trained = False
